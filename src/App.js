@@ -4,7 +4,8 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 
 import { 
   // Buttons 
-  Cards
+  // Cards
+  Sliders
 } from './components'
 
 const theme = createMuiTheme({
@@ -18,7 +19,7 @@ function App() {
     <>
       <MuiThemeProvider theme={theme}>
         <CssBaseline />
-          <Cards />
+          <Sliders />
       </MuiThemeProvider>
     </>
   );
